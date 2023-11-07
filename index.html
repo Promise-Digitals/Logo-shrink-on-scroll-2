@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Logo Shrink on Scroll</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <h1 class="logo">Company Logo</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header">
+            <img src="/images/image-1.jpg" alt="">
+        </div>
+        <div class="main">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae et accusantium pariatur tempore, aliquid sed odio molestias assumenda sequi eveniet aperiam cum accusamus, quod ex culpa fugiat eum beatae atque voluptatem odit nam. Voluptatem ad assumenda laboriosam perspiciatis sapiente sint animi autem asperiores doloribus explicabo. Est magni error reiciendis sunt commodi perspiciatis provident laborum nam, consequatur, omnis eveniet culpa accusamus molestias, libero quisquam iste aut sit voluptatem similique perferendis voluptates officiis pariatur? Eveniet neque doloremque quisquam quia nostrum ad, corrupti culpa assumenda mollitia nihil, obcaecati in nesciunt officiis totam, ducimus nobis. Minima dolore aut in facilis temporibus asperiores beatae odit sit exercitationem, repellendus incidunt corrupti harum maiores omnis excepturi, voluptatum vel ad error assumenda animi officia facere laboriosam ducimus? Asperiores expedita, autem tenetur quis dicta totam corrupti adipisci beatae odit architecto hic, necessitatibus esse dolorum? Nemo dicta nesciunt, recusandae aperiam voluptas a molestiae tempora voluptates eos? Distinctio, ex. Perferendis repellat ipsa unde culpa exercitationem, assumenda enim maiores doloribus molestias tempore saepe est explicabo similique voluptatem minima laborum aliquid? Modi, sit omnis illo officia porro reprehenderit, recusandae assumenda sapiente dicta velit nulla. Nostrum aliquid perspiciatis sequi earum veniam quaerat, impedit recusandae consequatur voluptate excepturi fugiat saepe. Dolorum maxime qui officia sequi enim. In nam sint dolore. Repellat adipisci itaque error, unde fugit nihil cupiditate ab, expedita aspernatur qui debitis! Praesentium culpa qui ut magni, tenetur ab error aliquam repellat fugit soluta excepturi beatae sit eius pariatur minus! Incidunt ad, libero omnis suscipit culpa beatae expedita repellendus blanditiis nulla hic harum recusandae tempore minus labore et exercitationem in voluptatem magni natus, molestiae explicabo facere minima quod optio? Aliquam quia obcaecati, autem quod atque nostrum vero dicta quas consequatur ratione eum magnam repellendus sed! Iste, odio quisquam? Quidem consectetur qui vel maxime aliquam eligendi commodi natus vero numquam, modi aspernatur enim soluta iusto, alias quia? Fugiat quas eveniet minus repudiandae. Harum, numquam beatae ullam vitae non corrupti. Repellat consequatur cupiditate, ratione non aliquid delectus rerum minima quis cumque mollitia assumenda veniam repellendus dolores soluta, ullam iure neque dicta aut? Unde qui maxime vitae, aperiam harum eius ab dolorem delectus quod asperiores earum, perspiciatis officia nostrum eligendi repellendus beatae eveniet suscipit quia ex cumque amet ut dolore. Nostrum ratione dolores labore sed cupiditate, iure doloremque temporibus rem, recusandae, id neque esse ipsa error iusto sint. Aut, commodi mollitia reprehenderit esse illum laboriosam ut minus vel a quam quia accusantium optio voluptatem debitis nesciunt sequi quos libero nihil tempora placeat! Reiciendis hic unde totam saepe incidunt neque delectus optio magni est ad distinctio quidem expedita soluta sunt laborum, necessitatibus voluptas! Praesentium molestiae non sed veniam quia debitis eveniet voluptates aperiam voluptatibus nisi nobis ipsum assumenda, at a mollitia expedita ipsa magni, tempore porro possimus asperiores laudantium rerum in. Sint eveniet labore minima tempore, ex deleniti dolores vitae et animi nemo tenetur eum maiores aut, nostrum quisquam? Consequuntur inventore necessitatibus expedita perspiciatis, quod eaque error provident sint, delectus fugit animi, dolorum doloremque? Illo nam pariatur laboriosam natus a! Aspernatur excepturi totam explicabo illum sed debitis eligendi, corrupti quam enim ad maxime tempore impedit quae repudiandae adipisci voluptatibus quia fuga necessitatibus iusto eos? Ratione qui ab enim, ullam quidem quae. Odio nesciunt aliquid provident illo libero nemo omnis quasi laudantium nihil, sequi quaerat consectetur molestias eius? Incidunt quisquam maiores similique id officiis dolores mollitia. Provident ducimus aperiam odit. Harum, odio a eos alias, consectetur quae facilis inventore enim, beatae dolorem illum officiis sint labore? Minima qui quidem atque quos eum architecto, repellat in vel perferendis enim pariatur voluptatibus deleniti reiciendis magni a debitis dignissimos tempora fugit nihil, esse modi dolor expedita repellendus ipsa. Ipsam neque dicta possimus!</p>
+        </div>
+    </div>
+
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction(){
+            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
+                document.querySelector(".logo").style.fontSize = "30px";
+            }else{
+                document.querySelector(".logo").style.fontSize = "50px";
+            }
+        }
+    </script>
+</body>
+</html>
