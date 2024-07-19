@@ -12,7 +12,7 @@
     width: 100%;
     display: grid;
     place-items: center;
-    background: #1f2b37;
+    background: #181818;
     color: #fff;
     padding: 25px 0;
     cursor: default;
@@ -22,7 +22,7 @@
 .logo{
     font-size: 40px;
     margin: 5px auto 10px;
-    color: #4f76f6;
+    color: #6660ff;
     transition: 0.5s;
 }
 .container nav ul li{
@@ -37,7 +37,7 @@
     transition: 0.4s;
 }
 .container nav ul li a:hover{
-    color: #4f76f6;
+    color: #6660ff;
 }
 .header{
     width: 100%;
